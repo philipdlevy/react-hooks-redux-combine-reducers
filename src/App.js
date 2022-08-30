@@ -1,8 +1,11 @@
 import React from "react";
-import AuthorInput from "./features/books/AuthorInput";
-import Authors from "./features/books/Authors";
+import AuthorInput from "./features/books/authors/AuthorInput";
+import Authors from "./features/books/authors/Authors";
+import authorSlice from "./features/books/authors/authorSlice";
 import BookInput from "./features/books/BookInput";
 import Books from "./features/books/Books";
+import booksSlice from "./features/books/booksSlice"
+import Reducers from "/Reducers";
 
 function App() {
   return (
